@@ -14,7 +14,12 @@
 
         <p class="dashboard">
               <a href="client-explore.html" >Explore</a>  
-              <a href="Find-Freelancer.html" class="tight-text active-dash">Find Designer</a> 
+              <a href="Find-Freelancer.html" class="tight-text active-dash" onclick="popup()">Find Designer</a>
+            <div class="sub-menu1" id = "ha">
+                    <a href="#" class="sub-menu" >Browse Freelancer</a>
+                    <a href="#" class="sub-menu">Post Job Listings</a>
+                    <a href="#" class="sub-menu">Purchase Services</a>
+            </div>
               <a href="client-about.html">About</a>
         </p>
 
@@ -135,6 +140,20 @@
                 </div> 
             </section>
     </div>
+
+    <script>
+        document.addEventListener("click", function (event) {
+            let ha = document.getElementById("ha");
+            let popup = document.querySelector(".active-dash");
+    
+            if (event.target === popup) {
+                event.preventDefault();
+                ha.classList.toggle("open");
+            } else if (!ha.contains(event.target)) {
+                ha.classList.remove("open");
+            }
+        });
+    </script>
     
     <script>
         let subMenu = document.getElementById("subMenu");
