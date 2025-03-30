@@ -780,3 +780,30 @@ hr {
     height: 300px;
     align-self: stretch;  
 }
+.sub-menu1 {
+    display: none; 
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    top: 50px;
+    left: 0;
+    width: 130px;
+    z-index: 100;
+}
+
+.sub-menu1.open { 
+    display: block;
+    left: 35%;
+}
+
+.sub-menu {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu:hover {
+    background-color: #f0f0f0;
+}
