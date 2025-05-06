@@ -22,8 +22,7 @@
         }
     ?>
     <div class="logo">
-        <img class="picture" src="../image/logo.png">
-        <p>TaskFlow</p>
+        <img class="picture" src="../image/taskflow-logo.png">
 
         <div class="dashboard">
             <ul>
@@ -70,7 +69,6 @@
         </div>
     </div>
     <div class="discover">
-        <div class="overlay"></div>
         <p class="info">
             <b>DISCOVER JOBS THAT BEST ALIGN<br/>WITH YOUR SKILLS
             </b><br/><br/>
