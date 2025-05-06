@@ -11,7 +11,7 @@
     <div class="splitscreen">
         <div class="welcome">
             <h1><span>WELCOME</span> to</h1>
-            <div class="TF">TASKFLOW</div>
+            <div class="TF"><img class="picture" src="../image/taskflow-logo.png"></div>
             <div class="overlay"></div>
         </div>
 

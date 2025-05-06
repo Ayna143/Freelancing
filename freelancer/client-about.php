@@ -21,8 +21,7 @@
         }
     ?>
     <div class="logo">
-        <img class="picture" src="../image/logo.png">
-        <p>TaskFlow</p>
+        <img class="picture" src="../image/taskflow-logo.png">
 
         <div class="dashboard">
             <ul>

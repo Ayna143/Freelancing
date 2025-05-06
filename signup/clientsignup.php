@@ -64,20 +64,12 @@
             font-size: 44px;
         }
 
-        .TF {
-            color: #222;
-            font-weight: 700;
-            font-size: 54px;
-            background-color: #FFE295;
-            padding: 8px 20px;
-            margin-top: 5px;
-            z-index: 2;
-            border-radius: 4px;
-            box-shadow: 0 4px 10px rgba(243, 28, 28, 0.15);
-            letter-spacing: 1px;
-            transition: transform 0.3s ease;
+        .picture {
+            width: 300px;
+            height: 50px;
+            float: left;
+            margin-left: 3%;
         }
-
         .TF:hover {
             transform: scale(1.05);
         }
@@ -211,7 +203,7 @@
     <div class="splitscreen">
         <div class="welcome">
             <h1><span>WELCOME</span> to</h1>
-            <div class="TF">TASKFLOW</div>
+            <div class="TF"><img class="picture" src="../image/taskflow-logo.png"></div>
             <div class="overlay"></div>
         </div>
 
